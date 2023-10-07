@@ -46,7 +46,7 @@ options에는 capped, size, max 등이 있음
     db.student.find({}, {name: 1, age: 1, _id: 0}) - student collection의 name, age 만 검색
     db.student.find({name:"김삼"}) - student collection에서 name이 "김삼"인 document 검색
 #### 비교 문법
-$eq    =    equal
+$eq    =    equal \n
 $gt    >    greater than
 $gte   >=   greater than or equal
 $in         values in an array
